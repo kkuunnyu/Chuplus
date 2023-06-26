@@ -16,6 +16,18 @@ var swiper = new Swiper(".mySwiper1", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  breakpoints: {
+    // 화면의 넓이가 320px 이상일 때
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 0
+    },
+    // 화면의 넓이가 640px 이상일 때
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 0
+    }
+  }
 });
 
 
@@ -42,4 +54,20 @@ var swiper = new Swiper(".mySwiper2", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  breakpoints: {
+    // 화면의 넓이가 320px 이상일 때
+  320: {
+      slidesPerView: 1,
+      spaceBetween: 30
+    },
+    // 화면의 넓이가 640px 이상일 때
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    1200:{
+      slidesPerView: 4,
+      spaceBetween: 40
+    }
+  }
 });

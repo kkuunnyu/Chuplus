@@ -115,7 +115,7 @@ h1 span {
 	right: 0;
 	height: 5px;
 	background: orange;
-	width: 50px;
+	
 	transform: scalex(0);
 	transition: ease-in 100ms;
 }
