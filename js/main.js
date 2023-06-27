@@ -71,3 +71,16 @@ var swiper = new Swiper(".mySwiper2", {
     }
   }
 });
+
+// Scroll Magic-----------------------------------
+const spyEl = document.querySelectorAll('section.scroll-spy');
+spyEl.forEach(function(spyEl){
+  new ScrollMagic.Scene({
+    triggerElement : spyEl, //보여짐 여부를 감지할 요소를 지정
+    triggerHook : 0.8,
+  })
+  //show넣었다가 뺐다가
+  //.setClassToggle(토글할요소, '넣었다뺄 class이름')
+  .setClassToggle(spyEl, 'show')
+  .addTo(new ScrollMagic.Controller());
+});
