@@ -472,7 +472,7 @@ h1 span {
 .swiper-pagination-bullet {
   background: white !important;
 }
-.mySwiper2 img{border-radius: 30px; width: 200px; height: 200px;}
+.mySwiper2 img{border-radius: 30px; width: 200px; height: 200px;box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);}
 .mySwiper2 img:hover{opacity: 0.8; transition: all 0.3s;}
 
 
@@ -591,5 +591,5 @@ footer .inner img{margin: auto; align-items: center; display: flex;}
 .swiper-pagination-bullet {
   background: white !important;
 }
-.mySwiper2 img{border-radius: 30px; padding: 20px;}
+.mySwiper2 img{border-radius: 30px; box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);}
 .mySwiper2 img:hover{opacity: 0.8; transition: all 0.3s;}
